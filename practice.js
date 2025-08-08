@@ -12,9 +12,17 @@
 // var is a function scop variable means ka ya function () {
 //     var a = 10; var jo ha  fuction ka under hi rha ga is bhar nhi chala ga is ko khata ha function scope
 // }
-
 //
 //
+// var a = 200;
+
+// console.log(name is " + name);
+
+// var name = " Mansoor ";
+
+console.log("name is " + names);
+
+let names = undefined;
 
 
-// var a = 200; 
+names = " Mansoor ";

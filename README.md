@@ -1,4 +1,5 @@
-👋 Hi, I'm M. Mansoor Farooq (@mansoor-turk) 🧑‍💻 Full-stack Developer | React.js · Node.js · PostgreSQL
+👋 Hi, I'm M. Mansoor Farooq (@mansoor-Farooq) 🧑‍💻 Full-stack Developer | React.js · Node.js · PostgreSQL · MongoDB ·
+Docker ·Google Cloud 🌐
 
 🌍 Based in Karachi, Sindh, Pakistan
 
