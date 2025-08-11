@@ -44,7 +44,7 @@
 // b.push(5); // ya incremant kr ta ha
 // b.pop() // ya decrement kr ta ha
 
-// lets get start with symbol 
+// lets get start with symbol
 
 // let mansoor = Symbol("turk");
 // let mansoor1 = Symbol("turk");  // kuch bhi ho ya unique hi rha ta ha symbol ki waga sa
@@ -70,18 +70,72 @@
 // symbol ka use krta ha
 // taka hum overwrite sa bach saka , kia pata hum ma to nhi pata kia logic ha os ma is lia hum symbol ka use krta ha ku ka aghar value over
 // right ho jaga to
-// hum ma nhi pata ka undher kia value ha or expected value nhi mala osa to wo library ki functionality ma error a gay ga 
+// hum ma nhi pata ka undher kia value ha or expected value nhi mala osa to wo library ki functionality ma error a gay ga
 
-// lests get  start big int 
+// lests get  start big int
 
-let d = 9007199254740991n; // 'n' lagane ka matlab ye BigInt hai
-console.log(d);            // BigInt ko print karega
-let b = 9007199254740996n;// 'n' lagane ka matlab ye BigInt hai
+// let d = 9007199254740991n; // 'n' lagane ka matlab ye BigInt hai
+// console.log(d);            // BigInt ko print karega
+// let b = 9007199254740996n;// 'n' lagane ka matlab ye BigInt hai
 
-b = b + d;
-console.log(b);
-let normal = 9007199254740991;
-console.log(normal + 5); // 9007199254740996? ❌ Galat result aayega
+// b = b + d;
+// console.log(b);
+// let normal = 9007199254740991;
+// console.log(normal + 5); // 9007199254740996? ❌ Galat result aayega
+
+
+// Dynamic typing in js
+// js mein static typing nhi hai and js  ma sirf  dynamic typing jis ka matlab hai aap data  ko change kr skte ho kyuka yaha par
+// dynamic data types hai ;
+
+// example hai static  typing
+// int a = 10; // yai static typing hai or is ma  intiger pass kr na ka bad hum bolean nhi da sakta
+// a=true;  // lain java script hama allow krta hai kyuka yaha par dynamic typing hai
+
+// example in Dynamic typing
+// let a = 50;
+// console.log("number", a); // number
+// a = true;    // this is not a error or warning in js this is dynamic typing  bolean type
+// console.log("bolean", a); // true
+// a = "mansoor"; // this is  string type of data
+// console.log("string", a); // mansoor
+// a = null; // this is null type in js
+// console.log("null", a);
+// a = undefined; // this is undefined type in js
+// console.log("undefined", a);
+// a = ['name', 'age', 'city']; // this is array type in js
+// console.log("array", a); // array type in js
+// a = {
+//     name: 'mansor', age: '19', city: 'karachi'
+// } // this is object type in js
+// console.log("object", a); // object type in js
+
+// type conversion in js (== vs ===) === is strict equality operator and == is loose equality operator
+
+// "5" + 2
+//  result is "52"
+// 5 + 2
+// result is 7
+// "5" -1
+// result is 4
+// "5" - "2"
+// result is 3
+
+// true vs false
+// 0 false "" null undefined NaN document.all
+//  !! example trick to check data type in js
+// !!0
+// false
+// !!1
+// true
+// !!NaN
+// false
+// !! ""
+// false
+// !! null
+// false
+// !!document.all
+// false
 
 
 
