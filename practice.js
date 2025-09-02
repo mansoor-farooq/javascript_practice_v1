@@ -61,9 +61,7 @@
 // }
 // console.log(obj)
 // let u1 = Symbol("uuid");
-
 // obj[u1] = "001";
-
 // console.log(obj)
 // // ya symbol ko acha sa samj na ka lia example ha , object ka under bhi uuid: 10, ha ab hum aghar koi library use kr rha
 // ha to hum to nhi pata ka undher kia uuid phala sa declire ha ? to kabi hum apni uuid pass kra to wo overright ho ga ya gi is lia hum
@@ -71,27 +69,20 @@
 // taka hum overwrite sa bach saka , kia pata hum ma to nhi pata kia logic ha os ma is lia hum symbol ka use krta ha ku ka aghar value over
 // right ho jaga to
 // hum ma nhi pata ka undher kia value ha or expected value nhi mala osa to wo library ki functionality ma error a gay ga
-
 // lests get  start big int
-
 // let d = 9007199254740991n; // 'n' lagane ka matlab ye BigInt hai
 // console.log(d);            // BigInt ko print karega
 // let b = 9007199254740996n;// 'n' lagane ka matlab ye BigInt hai
-
 // b = b + d;
 // console.log(b);
 // let normal = 9007199254740991;
 // console.log(normal + 5); // 9007199254740996? ❌ Galat result aayega
-
-
 // Dynamic typing in js
 // js mein static typing nhi hai and js  ma sirf  dynamic typing jis ka matlab hai aap data  ko change kr skte ho kyuka yaha par
 // dynamic data types hai ;
-
 // example hai static  typing
 // int a = 10; // yai static typing hai or is ma  intiger pass kr na ka bad hum bolean nhi da sakta
 // a=true;  // lain java script hama allow krta hai kyuka yaha par dynamic typing hai
-
 // example in Dynamic typing
 // let a = 50;
 // console.log("number", a); // number
@@ -109,9 +100,7 @@
 //     name: 'mansor', age: '19', city: 'karachi'
 // } // this is object type in js
 // console.log("object", a); // object type in js
-
-// type conversion in js (== vs ===) === is strict equality operator and == is loose equality operator
-
+//          type conversion in js (== vs ===) === is strict equality operator and == is loose equality operator
 // "5" + 2
 //  result is "52"
 // 5 + 2
@@ -137,14 +126,49 @@
 // !!document.all
 // false
 
+// let isadmin = true;
+// let isloggedin = false;
+
+// if (isadmin || isloggedin) {
+//     console.log("show admin access successfully");
+
+// } else {
+//     console.log("show access denied successfully");
+// }
 
 
+//                  // oprater
 
+// let temp = 45;
+// if (!(temp < 40)) {
+//     console.log("its very hot day");
+//     console.log("stay hydrated");
+// }
+// else {
+//     console.log("its a pleasant day");
+//     console.log("enjoy your day");
+// }
 
+// let a = 0;
 
+// if (a) {
+//     console.log("true");
+// }
+// else {
+//     console.log("false");
+// }
 
+// let score = 55;
 
+// let grade = score >= 90 ? "A" : score >= 75 ? "B" : score >= 60 ? "C" : " Fail ";
 
+// console.log("grade", grade);
+
+// let point = 120;
+
+// let status = point > 100 ? "Gold " : point > 70 ? "Platinum" : point > 50 ? "Silver" : "Bronze";
+
+// console.log("status", status);
 
 
 
