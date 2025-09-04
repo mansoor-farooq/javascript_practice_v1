@@ -221,6 +221,93 @@
 // console.log("status", status);
 
 
-
 // let point = 120;
+
+// let Logden = true;
+// let hashtoken = false;
+
+// let acess = Logden && hashtoken ? "Allow" : "Deny";
+
+// console.log("acess", acess);
+
+// if (Logden == false || hashtoken == false) {
+//     console.log("data successfully" + "lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM1100: 2 data successfullylalalalalala
+// undefined
+// if (Logden == false || hashtoken == true) {
+//     console.log("data successfully" + "lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM1136: 4  logen failed
+// undefined
+// if (Logden == true || hashtoken == true) {
+//     console.log("data successfully" + "lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM1179: 2 data successfullylalalalalala
+// undefined
+// if (Logden == true || hashtoken == true) {
+//     console.log("data successfully " + " lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM1202: 2 data successfully  lalalalalala
+// undefined
+// if (Logden !== true || hashtoken !== true) {
+//     console.log("data successfully " + " lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM1227: 2 data successfully  lalalalalala
+// undefined
+// if (Logden !== true || hashtoken == true) {
+//     console.log("data successfully " + " lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM1239: 4  logen failed
+// undefined
+// if (Logden == true && hashtoken == true) {
+//     console.log("data successfully " + " lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM2164: 4  logen failed
+// undefined
+// if (Logden == true && hashtoken == false) {
+//     console.log("data successfully " + " lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM6364: 2 data successfully  lalalalalala
+// undefined
+// if (Logden == true && hashtoken == false) {
+//     console.log("data successfully " + " lalalalalala");
+// } else {
+//     console.log(" logen failed ");
+// }
+
+
+// VM6388: 2 data successfully  lalalalalala
 
